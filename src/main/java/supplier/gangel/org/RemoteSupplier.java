@@ -5,7 +5,6 @@ import com.tinkerpop.blueprints.impls.orient.OrientGraphFactory;
 public class RemoteSupplier extends SupplierBase {
 
 	public void connect() {
-//		OrientGraph graph = new OrientGraph("plocal:d:/dev/orientdb-community-2.1.4/databases/xdm");
 		factory = new OrientGraphFactory("remote:localhost/xdm", "root", "admin").setupPool(1,10);
 		graph = factory.getTx();
 	}
