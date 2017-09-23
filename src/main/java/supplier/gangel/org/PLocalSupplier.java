@@ -5,7 +5,7 @@ import com.tinkerpop.blueprints.impls.orient.OrientGraph;
 public class PLocalSupplier extends SupplierBase {
 
 	public void connect() {
-			graph = new OrientGraph("plocal:d:/dev/orientdb-community-2.2.27/databases/xdm");
+			graph = new OrientGraph("plocal:d:/dev/orientdb-community-spatial-3.0.0m2/databases/xdm");
 	}
 	
 	public static void main(String[] args) {
