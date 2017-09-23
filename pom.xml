@@ -4,6 +4,21 @@
   <artifactId>orient.supplier.1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>orientdb-supplier-1</name>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+
+    <maven.compiler.testSource>1.8</maven.compiler.testSource>
+    <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
+    
+    <orientdb.version>2.1.4</orientdb.version>
+    
+  </properties>
+  
+  
   <dependencies>
   	<dependency>
   		<groupId>com.orientechnologies</groupId>
@@ -59,7 +74,4 @@
 	
 	
   </dependencies>
-  <properties>
-  	<orientdb.version>2.1.6</orientdb.version>
-  </properties>
 </project>
