@@ -1,15 +1,13 @@
 package supplier.gangel.org;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-
-import org.gangel.ProjectProducer;
-import org.testng.Assert;
-
 import com.tinkerpop.blueprints.Vertex;
 import com.tinkerpop.blueprints.impls.orient.OrientGraph;
 import com.tinkerpop.blueprints.impls.orient.OrientGraphFactory;
 import com.tinkerpop.blueprints.impls.orient.OrientVertex;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Objects;
 
 public abstract class SupplierBase {
 
@@ -110,7 +108,7 @@ public abstract class SupplierBase {
 						++nVertexes;
 						++nTransactions;
 						
-						Assert.assertNotNull(obj);
+						Objects.requireNonNull(obj);
 					}
 				}
 				
