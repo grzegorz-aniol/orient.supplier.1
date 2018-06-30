@@ -9,7 +9,7 @@ OrientDB version | plocal read [IOPS] | plocal write [IOPS] | remote read [IOPS]
 2.2.27	         | 380347	          | 2564                | 66484	             | 1195
 3.0M2            | 497736	          | 4667                | 42272	             | 1819
 3.0RC2           | 601552             | 4473                | 69836              | 2167
-
+3.02             | 747321             | 4332                | 99426              | 1930
 
 Machine specification:
 Windows 10, CPU: AMD FX-6300 6 cores 3.5GHz, RAM 8 GB
